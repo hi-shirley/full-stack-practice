@@ -7,7 +7,7 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collation = "movies")
+@Document(collection = "reviews")
 @Data // Lombok annotation to generate getters, setters, equals, hashcode, and toString
 @AllArgsConstructor
 @NoArgsConstructor
